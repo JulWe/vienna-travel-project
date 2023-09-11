@@ -12,6 +12,16 @@ h1, h2, h3, h4 {
     font-family: var(--font-family-headings);
 }
 .container {
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 2fr 2fr;
+}
+
+section {
     max-width: 1200px;
     margin: 0 auto;
 }
@@ -21,7 +31,7 @@ header {
     url('../images/vienna_header.jpg');
     background-repeat: no-repeat;
     background-size: cover;
-    color:white;
+    color: #EAEBEB;
     text-align: center;
     padding: 200px 0;
 }
@@ -55,12 +65,51 @@ header a {
     letter-spacing: 3px;
     text-decoration: none;
     text-transform: uppercase;
-    background: white;
+    background: #EAEBEB;
     color: black;
     border-radius: 3px;
     padding: 16px 32px;
     margin-top: 20px;
     display: inline-block;
+}
+
+footer {
+    color: #EAEBEB;
+    background-image: linear-gradient(rgba(77,96,105,0.9), rgba(77,96,105,0.9)),
+    url('../images/vienna_footer.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 100px 0;
+}
+
+footer h3 {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+footer p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    opacity: 0.7;
+    margin-right: 20px;
+}
+
+footer ul {
+    padding: 0;
+}
+
+footer li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+footer a {
+    color: #EAEBEB;
+    opacity: 0.7;
+    
 }
 
 @media (max-width: 900px) {
