@@ -41,7 +41,6 @@ h1, h2, h3, h4 {
     display: block;
 }
 
-
 header {
     background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
     url('../images/vienna_header.jpg');
